@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pagina-Inicio</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="../html/css/nav.css" /> 
+  <link rel="stylesheet" href="../html/css/login.css" />
+  <link rel="stylesheet" href="../html/css/register.css" />
+  <link rel="stylesheet" href="../html/css/textPrincipal.css"/>
+</head>
+<body>
+
+    
+  <!-- Menú de navegación principal -->
+  <header class="contenedor-navegacion">
+    <nav class="navegacion">
+      <a href="#textPrincipal" class="peluqueria-text">Peluquería Denis</a>
+      <ul>
+        <li><a href="#" id="loginLink">INGRESAR</a></li>
+        <li><a href="#" id="registerLink">REGISTRO</a></li>
+        <li><a href="#servicios">SERVICIOS</a></li>
+        <li><a href="#comoFunciona">COMO</a></li>
+        <li><a href="#footer">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+  <!-- Contenedor para modales (login/register) que se llenará dinámicamente -->
+  <div id="modal-container"></div>
+
+    <!-- Sección principal que se cargará dinámicamente -->
+  <main>
+    <section id="textPrincipal" class="textPrincipal"></section>
+  </main>
+
+ 
+  
+
+ 
+  <script src="../html/js/loginModal.js"></script>
+  <script src="../html/js/registerModal.js"></script>
+  <script src="../html/js/textPrincipal.js"></script>
+ 
+
+
+
+
+
+</body>
+</html>
+
+
+
